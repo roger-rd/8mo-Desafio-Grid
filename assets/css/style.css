@@ -54,7 +54,6 @@ body{
     background-color: white
 }
 
-
 .list {
     display: flex; 
     flex-direction: column;
@@ -64,20 +63,6 @@ body{
     width: 150px;
     margin: 0px;
     
-}
-
-.list-fixed{
-    display: flex; 
-    flex-direction: column;
-    list-style-type: none;
-    align-items: flex-start;
-    padding-left: 15px;
-    width: 150px;
-    margin: 0px;
-    display: flex; 
-    flex-direction: column;
-    text-decoration: none;
-    position: fixed;
 }
 
 .list a {
