@@ -1,0 +1,137 @@
+html{
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+body{
+    
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+   
+}
+
+.grid-container{
+    display: grid;
+    grid-template-areas:
+    "a a"
+    "b c"
+    "d d";
+}
+
+.grid-item{
+    padding: 0.5rem;
+    text-align: center;
+    margin-top: 0px;   
+}
+
+.grid-item:nth-child(1){
+    grid-area: a;
+    background-color: rgba(1, 50, 209, 0.719);;
+    color: white;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.grid-item:nth-child(2){
+    grid-area: b;
+    background-color: rgba(241, 238, 238, 0.662);
+    
+}
+
+.grid-item:nth-child(3){
+    grid-area: c;
+    background-color: rgba(241, 238, 238, 0.662); 
+}
+
+.grid-item:nth-child(4){
+    grid-area: d;
+    background-color: white
+}
+
+
+.list {
+    display: flex; 
+    flex-direction: column;
+    list-style-type: none;
+    align-items: flex-start;
+    padding-left: 15px;
+    width: 150px;
+    margin: 0px;
+    
+}
+
+.list a {
+    display: flex; 
+    flex-direction: column;
+    text-decoration: none;
+}
+
+.product{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0px;
+} 
+.product h3{
+    display: flex;
+    padding: auto;
+    text-decoration: none;
+    color: black;
+} 
+
+.product p {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 10px;
+    color: rgb(31, 30, 30);
+    margin: 5px;
+
+}
+.product span{
+    color: rgba(65, 63, 63, 0.596);
+    
+
+}
+
+.central{
+    display: flex;
+    flex-direction: row ;
+    flex-wrap: wrap ;
+    gap: 20px;
+    list-style-type: none;
+    margin: 0px;
+}
+
+.central img{
+    display: flex;
+    width: 250px ;
+    height:250px;
+}
+.central p{
+    color: rgb(65, 63, 63);
+}
+
+
+.central a {
+    display: flex;
+    background-color: rgba(1, 50, 209, 0.719);
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    height: 30px;
+}
+
+
+footer{
+    background-color: white;
+    
+}
+footer a{
+    text-decoration: none;
+    color: black;
+}
